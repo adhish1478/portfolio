@@ -8,7 +8,7 @@ export default function Contact() {
     <>
       <section className="py-xl px-md lg:px-offset-col reveal mb-xl" id="contact">
         <div className="max-w-2xl">
-          <h2 className="font-code-md text-headline-sm text-primary mb-lg">
+          <h2 className="font-code-md text-lg sm:text-headline-sm break-words text-primary mb-lg">
             {data.labels.contactLabel}
           </h2>
           <div className="space-y-sm">

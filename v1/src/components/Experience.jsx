@@ -14,7 +14,7 @@ export default function Experience() {
       <div className="space-y-xs border-l border-outline-variant/30 pl-md">
         {data.experience.map((exp, idx) => (
           <div key={idx} className="terminal-row group cursor-default">
-            <div className="flex justify-between items-center py-xs border-b border-outline-variant/10">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between py-xs border-b border-outline-variant/10 gap-1 sm:gap-4">
               <span className="font-code-md text-code-md text-on-surface group-hover:text-secondary transition-colors">
                 {pointerSymbol} {exp.role} @ {exp.company}
               </span>

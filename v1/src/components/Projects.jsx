@@ -16,13 +16,13 @@ export default function Projects() {
       <div className="space-y-md">
         {/* Featured Project Card */}
         {featuredProject && (
-          <div className="project-card bg-white border border-outline-variant p-lg group">
+          <div className="project-card bg-white border border-outline-variant p-md md:p-lg group">
             <div className="flex flex-col md:flex-row gap-lg">
               <div className="md:w-1/2">
                 <span className="font-code-sm text-code-sm text-on-tertiary-container mb-xs block">
                   {data.labels.featuredTag}
                 </span>
-                <h3 className="font-headline-lg text-headline-lg mb-sm">
+                <h3 className="font-headline-lg font-bold text-2xl sm:text-3xl md:text-headline-lg break-words mb-sm">
                   {featuredProject.name}
                 </h3>
                 <p className="font-body-md text-body-md text-on-surface-variant mb-md">
@@ -64,9 +64,9 @@ export default function Projects() {
           {otherProjects.map((project) => (
             <div
               key={project.id}
-              className="project-card bg-white border border-outline-variant p-md"
+              className="project-card bg-white border border-outline-variant p-sm md:p-md"
             >
-              <h4 className="font-headline-sm text-headline-sm mb-xs">
+              <h4 className="font-headline-sm font-semibold text-lg sm:text-xl md:text-headline-sm break-words mb-xs">
                 {project.name}
               </h4>
               <p className="font-body-sm text-body-sm text-on-surface-variant mb-md">
