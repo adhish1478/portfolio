@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #faf9f9;
+  color: #1b1c1c;
+}
+
+.dot-grid {
+  background-image: radial-gradient(#e5e5e5 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.typewriter::after {
+  content: '|';
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.project-card {
+  transition: border-left 0.3s ease;
+  border-left: 0px solid transparent;
+}
+
+.project-card:hover {
+  border-left: 2px solid #2563EB;
+}
+
+.terminal-row:hover .details {
+  max-height: 200px;
+  opacity: 1;
+  margin-top: 12px;
+}
+
+.details {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+}
+
+.frosted {
+  backdrop-filter: blur(12px);
+  background: rgba(250, 249, 249, 0.8);
+}

@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "name": "Adhish Aravind",
+    "title": "Backend Engineer · GenAI · Python · FastAPI",
+    "email": "adhish.aravind7@gmail.com",
+    "linkedin": "https://linkedin.com/in/adhish-aravind",
+    "github": "https://github.com/adhish1478",
+    "resumeUrl": "#"
+  },
+  "labels": {
+    "logo": "ENGINEER_CORE",
+    "navProjects": "Projects",
+    "navExperience": "Experience",
+    "navAbout": "About",
+    "navContact": "Contact",
+    "hireMe": "Hire Me",
+    "projectsSub": "Projects ↓",
+    "resumeSub": "Resume →",
+    "aboutLabel": "about_me",
+    "projectsLabel": "selected_work",
+    "featuredTag": "// featured",
+    "viewRepository": "View Repository",
+    "systemSpecs": "System Specs",
+    "experienceLabel": "technical_log",
+    "contactLabel": "console.log(\"open to work\")",
+    "emailPrefix": "email: ",
+    "linkedinPrefix": "linkedin: ",
+    "githubPrefix": "github: ",
+    "footerBrand": "SYSTEM_ARCHITECT",
+    "footerCopyrightSuffix": ". BUILT FOR SCALE.",
+    "footerGithub": "Github",
+    "footerLinkedin": "LinkedIn",
+    "footerDocumentation": "Documentation"
+  },
+  "hero": {
+    "headline": "I build backends that think.",
+    "annotation": "// backend engineer · genai systems · python",
+    "bio": "I design and ship production-grade AI systems — RAG pipelines, async APIs, and LLM integrations that actually work at scale.",
+    "codeSnippet": [
+      "@app.post('/chat')",
+      "async def chat(req: ChatRequest):",
+      "    context = await rag.retrieve(req.query)",
+      "    return await llm.generate(context)"
+    ]
+  },
+  "about": {
+    "bio": "Backend engineer with 1.5 years of production experience building AI-powered systems. I work at the intersection of Python backends and generative AI — from prompt orchestration to async infrastructure.",
+    "skills": {
+      "ai": ["LLMs", "RAG", "LangChain", "LangGraph", "OpenAI API", "Embeddings", "NLP", "Prompt Engineering"],
+      "backend": ["Python", "FastAPI", "Django", "PostgreSQL", "MongoDB", "Redis", "WebSockets", "REST APIs"],
+      "infra": ["Docker", "GitHub Actions", "Celery", "Kafka", "GCP", "AWS", "Nginx", "CI/CD"]
+    }
+  },
+  "projects": [
+    {
+      "id": 1,
+      "featured": true,
+      "name": "operationalCommandCenter()",
+      "description": "Multi-agent AI platform that ingests signals from Slack, Jira, GitHub and Gmail to detect escalations and generate root-cause investigations automatically.",
+      "stack": ["FastAPI", "Kafka", "OpenAI", "Docker", "PostgreSQL"],
+      "github": "https://github.com/adhish1478/operational-intelligence-platform"
+    },
+    {
+      "id": 2,
+      "featured": false,
+      "name": "agenticContentOrchestrator()",
+      "description": "LangGraph-powered pipeline with intelligent RAG routing, parallel fan-out workers, and structured citation enforcement.",
+      "stack": ["LangGraph", "LangChain", "Gemini API", "Python"],
+      "github": "https://github.com/adhish1478/Agentic-AI-Blog"
+    },
+    {
+      "id": 3,
+      "featured": false,
+      "name": "evolveNutritionCoach()",
+      "description": "Real-time AI coaching platform with WebSocket chat, context-aware meal planning, and async inference on GCP.",
+      "stack": ["Django", "WebSockets", "Celery", "Gemini API", "GCP"],
+      "github": "https://github.com/adhish1478/AI-Personal-Trainer"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Software Engineer",
+      "company": "Guiding Dreams",
+      "period": "Nov 2025 – Feb 2026",
+      "bullets": [
+        "Built production RAG system serving lesson content and conversation transcripts based on user queries via OpenAI API.",
+        "Architected multi-turn AI conversation engine supporting 5 interaction types with Celery + Redis async inference."
+      ]
+    },
+    {
+      "role": "Data Scientist Intern",
+      "company": "AIvariant",
+      "period": "Mar 2024 – Dec 2024",
+      "bullets": [
+        "Built end-to-end NLP pipelines for resume classification using TF-IDF vectorization and feature engineering.",
+        "Deployed real-time ML inference systems using Streamlit with optimized latency for production use."
+      ]
+    }
+  ],
+  "contact": {
+    "headline": "console.log(\"open to work\")",
+    "subtext": "Currently looking for backend / AI engineering roles. Let's talk."
+  }
+}
