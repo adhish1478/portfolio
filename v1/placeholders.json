@@ -8,7 +8,7 @@
     "resumeUrl": "#"
   },
   "labels": {
-    "logo": "ENGINEER_CORE",
+    "logo": "<adhish />",
     "navProjects": "Projects",
     "navExperience": "Experience",
     "navAbout": "About",
@@ -46,9 +46,36 @@
   "about": {
     "bio": "Backend engineer with 1.5 years of production experience building AI-powered systems. I work at the intersection of Python backends and generative AI — from prompt orchestration to async infrastructure.",
     "skills": {
-      "ai": ["LLMs", "RAG", "LangChain", "LangGraph", "OpenAI API", "Embeddings", "NLP", "Prompt Engineering"],
-      "backend": ["Python", "FastAPI", "Django", "PostgreSQL", "MongoDB", "Redis", "WebSockets", "REST APIs"],
-      "infra": ["Docker", "GitHub Actions", "Celery", "Kafka", "GCP", "AWS", "Nginx", "CI/CD"]
+      "ai": [
+        "LLMs",
+        "RAG",
+        "LangChain",
+        "LangGraph",
+        "OpenAI API",
+        "Embeddings",
+        "NLP",
+        "Prompt Engineering"
+      ],
+      "backend": [
+        "Python",
+        "FastAPI",
+        "Django",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "WebSockets",
+        "REST APIs"
+      ],
+      "infra": [
+        "Docker",
+        "GitHub Actions",
+        "Celery",
+        "Kafka",
+        "GCP",
+        "AWS",
+        "Nginx",
+        "CI/CD"
+      ]
     }
   },
   "projects": [
@@ -57,7 +84,13 @@
       "featured": true,
       "name": "operationalCommandCenter()",
       "description": "Multi-agent AI platform that ingests signals from Slack, Jira, GitHub and Gmail to detect escalations and generate root-cause investigations automatically.",
-      "stack": ["FastAPI", "Kafka", "OpenAI", "Docker", "PostgreSQL"],
+      "stack": [
+        "FastAPI",
+        "Kafka",
+        "OpenAI",
+        "Docker",
+        "PostgreSQL"
+      ],
       "github": "https://github.com/adhish1478/operational-intelligence-platform"
     },
     {
@@ -65,7 +98,12 @@
       "featured": false,
       "name": "agenticContentOrchestrator()",
       "description": "LangGraph-powered pipeline with intelligent RAG routing, parallel fan-out workers, and structured citation enforcement.",
-      "stack": ["LangGraph", "LangChain", "Gemini API", "Python"],
+      "stack": [
+        "LangGraph",
+        "LangChain",
+        "Gemini API",
+        "Python"
+      ],
       "github": "https://github.com/adhish1478/Agentic-AI-Blog"
     },
     {
@@ -73,7 +111,13 @@
       "featured": false,
       "name": "evolveNutritionCoach()",
       "description": "Real-time AI coaching platform with WebSocket chat, context-aware meal planning, and async inference on GCP.",
-      "stack": ["Django", "WebSockets", "Celery", "Gemini API", "GCP"],
+      "stack": [
+        "Django",
+        "WebSockets",
+        "Celery",
+        "Gemini API",
+        "GCP"
+      ],
       "github": "https://github.com/adhish1478/AI-Personal-Trainer"
     }
   ],
