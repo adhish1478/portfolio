@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "name": "Adhish Aravind",
+    "title": "AI & Backend Software Engineer · GenAI · Python · FastAPI",
+    "email": "adhish.aravind7@gmail.com",
+    "linkedin": "https://linkedin.com/in/adhish-aravind",
+    "github": "https://github.com/adhish1478",
+    "resumeUrl": "/ai_engg_sep.pdf"
+  },
+  "labels": {
+    "logo": "<adhish />",
+    "navProjects": "Projects",
+    "navExperience": "Experience",
+    "navAbout": "About",
+    "navContact": "Contact",
+    "hireMe": "Hire Me",
+    "projectsSub": "Projects ↓",
+    "resumeSub": "Resume →",
+    "aboutLabel": "about_me",
+    "projectsLabel": "selected_work",
+    "featuredTag": "// featured",
+    "viewRepository": "View Repository",
+    "systemSpecs": "System Specs",
+    "experienceLabel": "technical_log",
+    "contactLabel": "console.log(\"open to work\")",
+    "emailPrefix": "email: ",
+    "linkedinPrefix": "linkedin: ",
+    "githubPrefix": "github: ",
+    "footerBrand": "SYSTEM_ARCHITECT",
+    "footerCopyrightSuffix": ". BUILT FOR SCALE.",
+    "footerGithub": "Github",
+    "footerLinkedin": "LinkedIn",
+    "footerDocumentation": "Documentation"
+  },
+  "hero": {
+    "headline": "I build backends that think.",
+    "annotation": "// ai engineer · backend · genai systems",
+    "bio": "I design and ship production-grade AI systems — RAG pipelines, async backends, and LLM integrations that deliver measurable business impact.",
+    "codeSnippet": [
+      "@app.post('/chat')",
+      "async def chat(req: ChatRequest):",
+      "    context = await rag.retrieve(req.query)",
+      "    return await llm.generate(context)"
+    ]
+  },
+  "about": {
+    "bio": "AI and Backend engineer with production experience building AI-powered systems and retrieval-augmented workflows. I work at the intersection of Python backends and generative AI — from LLM integrations and prompt orchestration to scalable async infrastructure.",
+    "skills": {
+      "ai": [
+        "LLM Integration",
+        "RAG",
+        "Prompt Engineering",
+        "OpenAI API",
+        "NLP",
+        "LangGraph",
+        "LangChain",
+        "Agentic Workflows",
+        "Multimodal Pipelines",
+        "Vector Databases",
+        "Semantic Search"
+      ],
+      "backend": [
+        "Python",
+        "FastAPI",
+        "Django",
+        "Django REST Framework",
+        "PostgreSQL",
+        "MongoDB",
+        "WebSockets",
+        "REST APIs",
+        "Rate Limiting",
+        "JWT Auth"
+      ],
+      "infra": [
+        "Celery",
+        "Redis",
+        "RabbitMQ",
+        "Event-driven Architecture",
+        "Docker",
+        "AWS",
+        "GCP",
+        "CI/CD",
+        "Nginx",
+        "GitHub Actions"
+      ]
+    }
+  },
+  "projects": [
+    {
+      "id": 1,
+      "featured": true,
+      "name": "sigintAI()",
+      "description": "Multi-agent operational intelligence platform with a 5-stage async ingestion pipeline (RabbitMQ) that auto-correlates cross-platform telemetry into incidents and streams real-time root-cause analysis via SSE.",
+      "stack": [
+        "FastAPI",
+        "RabbitMQ",
+        "OpenAI API",
+        "PostgreSQL",
+        "MongoDB",
+        "Docker",
+        "React"
+      ],
+      "github": "https://github.com/adhish1478/operational-intelligence-platform"
+    },
+    {
+      "id": 2,
+      "featured": false,
+      "name": "agenticContentOrchestrator()",
+      "description": "LangGraph-powered pipeline with deterministic state transitions, intelligent routing across closed-book, hybrid, and RAG modes, and fan-out worker architecture with citation enforcement.",
+      "stack": [
+        "LangGraph",
+        "LangChain",
+        "OpenAI API",
+        "Gemini API",
+        "RAG",
+        "Python"
+      ],
+      "github": "https://github.com/adhish1478/Agentic-AI-Blog"
+    },
+    {
+      "id": 3,
+      "featured": false,
+      "name": "evolveNutritionCoach()",
+      "description": "Real-time AI coaching platform featuring WebSocket chat, personalized meal planning powered by Gemini API with context-aware prompt engineering, and Celery async processing on GCP.",
+      "stack": [
+        "Django REST",
+        "WebSockets",
+        "Celery",
+        "Gemini API",
+        "Docker",
+        "GCP"
+      ],
+      "github": "https://github.com/adhish1478/AI-Personal-Trainer"
+    }
+  ],
+  "experience": [
+    {
+      "role": "AI Engineer",
+      "company": "Emirion Techlab",
+      "period": "Aug 2025 – Present",
+      "bullets": [
+        "Built and maintain a RAG-based customer support chatbot (FastAPI) deployed as an embedded widget on client websites for FAQ and product support.",
+        "Fixed retrieval failures on tabular and numeric queries by reworking chunking and chunk-linkage, preserving row-column relationships needed for exact figures.",
+        "Reduced response latency by implementing caching for embeddings and repeated query-response pairs based on historical usage patterns.",
+        "Containerized the service with Docker and managed cloud deployment; designed and exposed FastAPI endpoints to serve AI/RAG services to client applications.",
+        "Added client-facing controls (temperature tuning, knowledge base updates via admin panel) enabling clients to adjust chatbot behavior without engineering support."
+      ]
+    },
+    {
+      "role": "Software Engineer — Contract",
+      "company": "Guiding Dreams",
+      "period": "Nov 2025 – Mar 2026",
+      "bullets": [
+        "Built and deployed AI-powered WhatsApp education platform end-to-end using Django, PostgreSQL, OpenAI API, and Celery via Twilio API.",
+        "Implemented stateful retrieval-augmented generation (RAG) system with Celery Beat automated week-wise progression, decreasing teacher workload by 40%.",
+        "Architected multi-conversation AI engine with prompt orchestration supporting 5 interaction types, maintaining conversation history and state across concurrent user sessions.",
+        "Containerized application with Docker, established GitHub Actions CI/CD to GCP with Nginx reverse proxy; deployed Celery workers and Redis reducing API latency by 50%."
+      ]
+    },
+    {
+      "role": "Data Scientist Intern",
+      "company": "AIvariant",
+      "period": "Mar 2024 – Dec 2024",
+      "bullets": [
+        "Built end-to-end NLP pipelines for resume classification and recommendation systems using machine learning, including TF-IDF vectorization and feature engineering.",
+        "Developed collaborative filtering and content-based recommendation models, deploying real-time ML inference systems using Streamlit with optimized latency."
+      ]
+    }
+  ],
+  "contact": {
+    "headline": "console.log(\"open to work\")",
+    "subtext": "Currently looking for AI / Backend engineering roles. Let's talk."
+  }
+}
